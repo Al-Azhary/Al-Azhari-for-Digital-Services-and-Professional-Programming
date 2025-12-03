@@ -41,5 +41,6 @@ orderForm.addEventListener("submit", (e)=>{
     let whatsappUrl = `https://wa.me/966502069445?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
 
+
     document.getElementById("orderMessage").textContent = "تم فتح واتساب لإرسال الطلب!";
 });
